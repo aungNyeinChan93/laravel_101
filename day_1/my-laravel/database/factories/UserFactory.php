@@ -2,11 +2,13 @@
 
 namespace Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
+// use Illuminate\Support\Traits\Conditionable;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class UserFactory extends Factory
 {
+    // use Conditionable;
     /**
      * Define the model's default state.
      *

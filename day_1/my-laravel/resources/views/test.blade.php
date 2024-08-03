@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1><?php print_r($key) ?></h1>
+    <h1><?php print_r($data) ?></h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptas tempora debitis quaerat asperiores
         quisquam id. Nisi non doloremque omnis sunt earum recusandae vel excepturi, minima laudantium dolores hic
         consequatur exercitationem deserunt atque facere natus. Et blanditiis natus quibusdam vitae aut ipsa facere
@@ -17,11 +17,11 @@
         vero, quidem aliquam dolorum. Sunt modi dolore sint cumque asperiores molestias? Similique cupiditate deserunt
         error minima laborum. Nesciunt, impedit, dolorum fugit veniam eveniet cumque voluptatibus iusto beatae quasi,
         odio adipisci doloremque?</p>
-    <small>{{$script}} </small><br>
-    <small><?php echo htmlentities($script) ?> </small>
-    <div>{{$req}}</div>
-    <div>{{$req1}}</div>
-   
+    <!-- <small>{{$script}} </small><br> -->
+    <!-- <small></small> -->
+    <!-- <div>{{$req}}</div> -->
+    <!-- <div>{{$req1}}</div> -->
+
 </body>
 
 </html>
