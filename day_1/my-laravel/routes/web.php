@@ -54,4 +54,7 @@ Route::get("/product", [homeController::class, "product"]);
 Route::get("/test",[test::class,"test"]);
 
 
+// Route::get("/",[])
+
+
 
